@@ -6,16 +6,21 @@ html,body{
     min-height: 100vh;
     /* overflow-y: hidden; */
 }
-/* .carousel-caption {
-    top: 0;
-    bottom: auto;
-} */
+ /* Nvbr */
+ .nav-dp{
+	color: white !important;
+	opacity: 0.7 !important;
+ }
 /* Bckground Colors */
 .bg1{
     background-color: #683503 !important;
 }
 .bg2{
     background-color: #080200;
+}
+.bg3{
+	background-color: #280A00;
+	/* height: 50vh; */
 }
 
 
