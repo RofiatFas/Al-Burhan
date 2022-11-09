@@ -12,26 +12,73 @@
 <body class="bg-white">
    
     <!-- NavBar Start -->
-      <nav class="navbar navbar-whte bg-white fixed-top bg-white shadow-sm">
+    <nav class="navbar navbar-whte fixed-top bg-white shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="50" height="50"></a>
+        <a class="btn btn-white" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          <i class="fas fa-bars" onclick="changeIcon(this)"></i>
+        </a>
         <div class="container-lg">
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="" width="50" height="50"></a>
-          <div class="dropdown">
-            <button class="btn btn-white " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fas fa-bars"></i>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="index.html">Home</a></li>
-              <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
-              <!-- <li><a class="dropdown-item" href="#portfolio">Services</a></li> -->
-              <li><a class="dropdown-item" href="#mission">Our Mission</a></li>
-              <li><a class="dropdown-item" href="#vision">Our Vision</a></li>
-              <li><a class="dropdown-item" href="#team">Our Team</a></li>
-              <li><a class="dropdown-item" href="#contact">Contact</a></li>
-            </ul>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body border-0">
+              <!-- <button type="button" class="btn-close ms-auto" data-bs-dismiss="collapse" aria-label="Close"></button> -->
+              <div class="row" >
+                <div class="col-6 col-sm-4 col-md-3 bg3 text-white">
+                  <ul class="list-unstyled my-3 mb-5">
+                  <li><a class="dropdown-item nav-dp" href="#home">Home</a></li>
+                  <li><a class="dropdown-item nav-dp" href="aboutus.html">Prayer Time</a></li>
+                  <li class="dropdown-item">
+                    <div class="dropdown">
+                      <a class="dropdown-toggle nav-dp" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Videos
+                      </a>
+                    
+                      <ul class="dropdown-menu bg-white" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a class="dropdown-item nav-dp" href="#activities">Welfare</a></li>
+                  <li><a class="dropdown-item nav-dp" href="#programs">Donations</a></li>
+                  <li><a class="dropdown-item nav-dp" href="#contact">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 bg3 text-white ">
+                  <ul class="list-unstyled my-3 mb-5">
+                    <li><a class="dropdown-item nav-dp" href="aboutus.html">About Us</a></li>
+                    <li><a class="dropdown-item nav-dp" href="aboutus.html">Gallery</a></li>
+                    <li><a class="dropdown-item nav-dp" href="#portfolio">Audios</a></li>
+                    <li><a class="dropdown-item nav-dp" href="#activities">Livestream</a></li>
+                    <li><a class="dropdown-item nav-dp" href="#programs">Ask a Shaykh</a></li>
+                    <li><a class="dropdown-item nav-dp" href="#contact">Sign Up</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 bg1 ">
+                  <ul class="list-unstyled my-3 mb-5">
+                    <li><a class="dropdown-item nav-dp" href="#home">News</a></li>
+                    <li><a class="dropdown-item nav-dp" href="aboutus.html">Articles</a></li>
+                    <li><a class="dropdown-item nav-dp" href="#portfolio">Library</a></li>
+                    <li><a class="dropdown-item nav-dp" href="#activities">Kids Zone</a></li>
+                    <!-- <li><a class="dropdown-item nav-dp" href="#programs">Our Programs</a></li> -->
+                    <li><a class="dropdown-item nav-dp" href="#">Meet our Team</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-sm-4 col-md-3 bg1">
+                  <ul class="list-unstyled my-3 mb-5">
+                  <li><a class="dropdown-item text-white" href="#">Mission</a></li>
+                  <li><a class="dropdown-item text-white" href="#">Vision</a></li>
+                  </ul>
+                </div>
+              </div>
+            
+            </div>
           </div>
-        </div>
-      </nav>
-    <!-- NavBar Start -->
+        </div>`  
+      </div>
+    </nav>
+  <!-- NavBar Start -->
 
     <!-- bout us -->
 

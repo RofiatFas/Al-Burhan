@@ -122,6 +122,12 @@ a{
         text-align: center;
         font-size: 12px;
     }
+	.pryerbg{
+		min-height: 100vh !important;
+	}
+	.crd-icon{
+		justify-content: right;
+	}
 
 }
 
